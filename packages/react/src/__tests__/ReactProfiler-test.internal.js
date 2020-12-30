@@ -1899,7 +1899,7 @@ describe('Profiler', () => {
 
         callback.mockClear();
 
-        // Test an error that happens during an cleanup function
+        // Test an error that happens during a cleanup function
 
         ReactTestRendererAct(() => {
           renderer.update(
@@ -2421,7 +2421,7 @@ describe('Profiler', () => {
 
         callback.mockClear();
 
-        // Test an error that happens during an cleanup function
+        // Test an error that happens during a cleanup function
 
         ReactTestRendererAct(() => {
           renderer.update(

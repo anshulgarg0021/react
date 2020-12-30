@@ -494,7 +494,7 @@ describe('ReactComponentLifeCycle', () => {
 
   it('should allow state updates in componentDidMount', () => {
     /**
-     * calls setState in an componentDidMount.
+     * calls setState in the componentDidMount.
      */
     class SetStateInComponentDidMount extends React.Component {
       state = {

@@ -358,7 +358,7 @@ describe('ReactDOMServerIntegrationUserInteraction', () => {
         </select>,
       ));
 
-    it('should not blow away user-selected value on successful reconnect to an controlled select', async () => {
+    it('should not blow away user-selected value on successful reconnect to a controlled select', async () => {
       let changeCount = 0;
       await testUserInteractionBeforeClientRender(
         <ControlledSelect onChange={() => changeCount++} />,

@@ -62,7 +62,7 @@ export function installHook(target: any): DevToolsHook | null {
         // For other versions (and configurations) it's not so easy.
         // Let's quickly exclude proper production builds.
         // If it contains a warning message, it's either a DEV build,
-        // or an PROD build without proper dead code elimination.
+        // or the PROD build without proper dead code elimination.
         if (renderRootCode.indexOf('should be a pure function') !== -1) {
           // Now how do we tell a DEV build from a bad PROD build?
           // If we see NODE_ENV, we're going to assume this is a dev build

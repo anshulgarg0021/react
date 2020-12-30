@@ -57,7 +57,7 @@ export function getNearestMountedFiber(fiber: Fiber): null | Fiber {
     // renderContainerIntoSubtree.
     return nearestMounted;
   }
-  // If we didn't hit the root, that means that we're in an disconnected tree
+  // If we didn't hit the root, that means that we're in a disconnected tree
   // that has been unmounted.
   return null;
 }

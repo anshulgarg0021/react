@@ -2238,7 +2238,7 @@ export function attach(
       // renderContainerIntoSubtree.
       return MOUNTED;
     }
-    // If we didn't hit the root, that means that we're in an disconnected tree
+    // If we didn't hit the root, that means that we're in a disconnected tree
     // that has been unmounted.
     return UNMOUNTED;
   }
